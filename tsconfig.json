@@ -1,0 +1,12 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": ["src/*.ts"],
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
